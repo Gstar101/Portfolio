@@ -1,0 +1,49 @@
+body
+{
+    user-select:none;
+   
+}
+#con
+{
+    height:1000px;
+    width:90%;
+    display: none;  
+    position:absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    
+    align-items:center;
+    justify-content:center;
+}
+.l 
+{ 
+    position: relative; 
+    font-weight: 300; 
+    font-size: 18vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:'Sacramento';
+} 
+.l .text
+{ 
+    position: relative; 
+    display: inline-block;
+   
+   
+    display:flex;
+    align-items:center;
+    justify-content:center;
+} 
+.l .anim
+{ 
+    transform-origin: 50% 100%;  
+    display: inline-block; 
+    line-height: 2vw; 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}

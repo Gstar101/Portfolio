@@ -1,0 +1,30 @@
+
+
+/* Button style */
+button {
+  border: none;
+  border-radius: 2px;
+  padding: 16px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  background-color: red;
+  box-shadow: 0 0 4px #999;
+  outline: none;
+}
+
+/* Ripple effect */
+.ripple2 {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple2:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #5F9EA0 1%) center/15000%;
+}
+.ripple2:active {
+  background-color: red;
+  background-size: 100%;
+  transition: background 0s;
+}
+

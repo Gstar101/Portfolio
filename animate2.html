@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<link rel="stylesheet" type="text/css" href="ripplebutton.css">
+<link rel="stylesheet" type="text/css" href="new3.css">
+<link rel="stylesheet" type="text/css" href="dropdownmenu.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<h1>Hello again!!!</h1>
+  <p>press buttons below to move</p>
+  
+   <button class="button button1"onclick='moveLeft()'>left</button>
+        <button class="button button2"onclick='moveRight()'>right</button>
+   <button class="button button1"onclick='moveUp()'>Up</button>
+        <button class="button button2"onclick='moveDown()'>Down</button>
+		<button class="button button2"onclick='atkup()'>atkup</button>
+		<button class="button button2"onclick='atkright()'>atkright</button>
+			<button class="button button2"onclick='atkleft()'>atkleft</button>
+  
+
+<canvas id='canvas'></canvas></br>
+  
+    
+
+ </head>
+<body>
+            <div class="dropdown1">
+  <button class="ripple" onclick="window.location.href='index.html';"> Home </button>
+   
+  
+  
+      
+    
+  </div>
+  
+  
+  <div class="dropdown">
+  <button class="dropbtn">About me</button>
+  <div class="dropdown-content">
+    <a href="MyCV.html">Me</a>
+    <a href="cv.txt"  download>My cv</a>
+    
+  </div>
+</div>
+
+  
+
+  
+      </br>
+    <p id="p1" >change my color</p>
+    <input type="color" id="myColor">
+
+  <button class="ripple2" onclick="myFunction()"> Change</button>  
+    
+    <script>
+  function myFunction() {
+    var x = document.getElementById("myColor").value;
+    document.getElementById("p1").style.color  = x;
+  }
+  </script>
+<script src="portfolio2.js"></script>
+</body>
+</html>
